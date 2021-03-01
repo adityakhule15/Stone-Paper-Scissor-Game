@@ -1,5 +1,7 @@
 import random
+# Importing Random for generating random veriable
 import emoji
+# Importing emoji for printing emoji with massege
 def gameWin(comp, you):
 
     if comp==you:
@@ -28,6 +30,7 @@ def gameWin(comp, you):
 
 print("Comp Turn: Stone(s) Paper(p) or Scissors(c)?")
 randNo = random.randint(1, 3) 
+# Generating random no. between 1 to 3
 if randNo == 1:
     comp = 's'
 elif randNo == 2:
