@@ -1,5 +1,5 @@
 import random
-# Importing Random for generating random veriable
+# Importing Random for generating random variable
 import emoji
 # Importing emoji for printing emoji with massege
 def gameWin(comp, you):
